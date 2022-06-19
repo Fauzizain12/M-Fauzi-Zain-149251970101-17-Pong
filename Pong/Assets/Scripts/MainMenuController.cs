@@ -10,4 +10,19 @@ public class MainMenuController : MonoBehaviour
         SceneManager.LoadScene("Game");
         Debug.Log("Created By M. Fauzi Zain - 149251970101-17");
     }
+
+    public void OpenCredit()
+    {
+        SceneManager.LoadScene("Credit");
+    }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("MainMenu");
+    }
+
+    public void QuitGame()
+    {
+        Application.Quit();
+    }
 }
